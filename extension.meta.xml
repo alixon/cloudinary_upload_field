@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<extension id="cloudinary_upload_field" status="released" xmlns="http://symphony-cms.com/schemas/extension/1.0">
+	<name>Field: Cloudinary File Upload</name>
+	<description>A filed for uploading images to the cloud with Cloudinary service</description>
+	<repo type="github">https://github.com/symphonists/s3upload_field</repo>
+	<url type="discuss"></url>
+
+	<types>
+		<type>Field Types</type>
+		<type>Upload</type>
+	</types>
+
+	<authors>
+		<author>
+			<name github="alixon" symphony="alixon">Aleksanrd Ukolov</name>
+			<email>ukolov@logicgate.ru</email>
+			<website>http://www.primecms.ru</website>
+		</author>
+	</authors>
+
+	<dependencies>
+		<release version="0.1.0" date="2015-12-17" min="2.3.1" max="2.x.x"/>
+	</dependencies>
+
+
+</extension>
